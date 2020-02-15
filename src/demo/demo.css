@@ -232,6 +232,12 @@
   left: 551px
 }
 
+.homeinput{
+	width:100%;
+	position:absolute;
+	margin-top: 100px;
+}
+
 input[type=text]{
 	width:20%;
 	padding: 12px 20px;
@@ -242,8 +248,26 @@ input[type=text]{
   box-sizing: border-box;
 	transition: width 0.4s ease-in-out;
 }
+
 input[type=text]:focus {
   width: 50%;
+}
+
+.bio-section{
+	margin-top: 100px;
+	padding: 50px;
+}
+
+.biopic{
+	width: 100%;
+	display:block;
+	margin: 0 auto;
+}
+
+.bio{
+	float:left;
+	width: 33.33%;
+	padding:5px;
 }
 
 .graph-div{
