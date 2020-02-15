@@ -1,6 +1,6 @@
-.header {	
+.header {
   overflow:auto;
-  height: 101px;	
+  height: 101px;
   width: 100%;
 }
 
@@ -9,43 +9,44 @@
     position: relative;
     display: block;
     padding: 0.5rem 1rem;
-    height: 18px;	
-    color: #27BBE9;	
-    font-family: Montserrat;	
-    font-size: 14px;	
-    font-weight: 500;	
-    letter-spacing: 0.78px;	
-    line-height: 18px;	
+    height: 18px;
+    color: #69AD2A;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.78px;
+    line-height: 18px;
     text-align: center;
 }
 
 .navtext:hover{
-  color: rgb(17, 69, 85);
+  color: #257B26;
 }
 
 .sway-electric-logo {
   bottom:25px;
   right:100px;
   position: relative;
-  height: 80px;
-  width: 300px;
+  height: 100px;
+  width: 260px;
   padding: 0.5rem 1rem;
 }
 
-.hero {	
+.hero {
   margin-top:0px;
   position:absolute;
-  height: 800px;	
+  height: 800px;
   width: 100%;
-  background-image: url("../images/Hero Image.jpg");
+  background-image: url("../images/HeroImage.jpg");
   background-size: 100% 100%;
   background-color:white;
 }
 
-.hero_2 {	
+
+.hero_2 {
   margin-top:0px;
   position:absolute;
-  height: 800px;	
+  height: 800px;
   width: 100%;
   background-image: url("../images/Hero Image_2.jpg");
   background-size: 100% 100%;
@@ -53,10 +54,10 @@
 
 }
 
-.hero_3 {	
+.hero_3 {
   margin-top:0px;
   position:absolute;
-  height: 800px;	
+  height: 800px;
   width: 100%;
   background-image: url("../images/Hero Image_3.jpg");
   background-size: 100% 100%;
@@ -64,29 +65,44 @@
 
 }
 
-.hero_4 {	
+.hero_4 {
   margin-top:0px;
   position:absolute;
-  height: 800px;	
+  height: 1000px;
   width: 100%;
-  background-image: url("../images/Hero Image_4.jpg");
+  background-image: url("../images/HeroImage4.jpg");
   background-size: 100% 100%;
   background-color:white;
 }
 
+.rect {
+	display: block;
+	margin: 15%;
+	margin-top:300px;
+	position:absolute;
+	height:100px;
+	width: 1000px;
+	background-color: rgb(105, 173, 42, 0.9);
+}
 .title-text{
-  margin:130px;
-  height: 174px;	
-  width: 770px;	
-  color: #FFFFFF;	
-  font-family: Montserrat;	
-  font-size: 48px;	
+	text-align: center;
+	margin:auto;
+	margin-top:20px;
+  /* margin:130px;
+	margin-top:200px;*/
+  height: 174px;
+  width: 770px;
+  color: #FFFFFF;
+  font-family: Montserrat Medium 500;
+  font-size: 48px;
   line-height: 58px;
+	position:relative;
 }
 
-.button-style {	
+
+.button-style {
   position:relative;
-  background-color: white;	
+  background-color: white;
   bottom:114px;
   margin-left:132px;
   border-radius: 30px;
@@ -98,15 +114,15 @@
   border: 1px solid transparent;
   padding: 1rem 2rem;
   line-height: 1.5;
-  font-family: Montserrat;	
-  font-size: 14px;	
+  font-family: Montserrat;
+  font-size: 14px;
   font-weight: 600;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .button-style {
   position:relative;
-  background-color: white;	
+  background-color: white;
   bottom:114px;
   margin-left:132px;
   border-radius: 30px;
@@ -118,8 +134,8 @@
   border: 1px solid transparent;
   padding: 1rem 2rem;
   line-height: 1.5;
-  font-family: Montserrat;	
-  font-size: 14px;	
+  font-family: Montserrat;
+  font-size: 14px;
   font-weight: 600;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -156,15 +172,15 @@
 .basiclink{
   color : white;
   font-family: Montserrat;
-  font-size: 16px;	
-  font-weight: bold;	
-  letter-spacing: 1.14px;	
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.14px;
   line-height: 19px;
 }
 
 .button-simple{
   padding: 15px 32px;
-  cursor:pointer; 
+  cursor:pointer;
   background:transparent;
   box-shadow: none;
   border-bottom-color: #2196f3;
@@ -199,22 +215,37 @@
   height: 800px;
   position:absolute;
   display:inline-block;
-  text-align:center; 
+  text-align:center;
 }
 
 .secundary-title{
   height: 29px;
-  width: 339px;	
-  color: #27BBE9;	
-  font-family: Montserrat;	
-  font-size: 24px;	
-  font-weight: bold;	
-  line-height: 29px;	
+  width: 339px;
+  color: #69AD2A;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
   position: relative;
   float: center;
   top:66px;
   left: 551px
 }
+
+input[type=text]{
+	width:20%;
+	padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 50%;
+}
+
 .graph-div{
   width:600px;
   height: 392px;
@@ -368,13 +399,13 @@
   position:relative;
 	height: 224px;
 	width: 1440px;
-  background-color: #27BBE9;
+  background-color: #69AD2A;
 }
 .swaylogo{
   display:block;
   margin:auto;
-  height:90px;
-  width:770px;
+  height:170px;
+  width:490px;
 }
 
 .form-header{
@@ -384,9 +415,9 @@
 .form-header-title{
   text-align: center;
   color:#27BBE9;
-  font-family: Montserrat;	
-  font-size: 15.83px;	
-  font-weight: 600;	
+  font-family: Montserrat;
+  font-size: 15.83px;
+  font-weight: 600;
   letter-spacing: 0.15px;
 }
 
@@ -402,7 +433,7 @@
 
 .button-modal{
   padding: 15px 32px;
-  cursor:pointer; 
+  cursor:pointer;
   font-size:16px;
   font-family:Montserrat;
   font-weight:bold;
@@ -423,14 +454,14 @@
 
 .basics-box{
   position:relative;
-  height: 338px;	
-  width: 820px;	
+  height: 338px;
+  width: 820px;
   top: 246px;
   left:130px;
   border: 2px solid #FFFFFF;
   background-color:	 #27BCEA;
   opacity: 0.86;
-  
+
 
 
 }
@@ -446,11 +477,11 @@
 }
 
 .basics-box-title{
-  height: 58px;	
-  width: 770px;	
-  color: #FFFFFF;	
-  font-family: Montserrat;	
-  font-size: 48px;	
+  height: 58px;
+  width: 770px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 48px;
   line-height: 58px;
   margin:36px;
 }
@@ -466,7 +497,7 @@
   height: 550px;
   bottom: 100px;
   margin: 2px;
- 
+
 }
 
 .vehicle-box-title {
@@ -495,7 +526,7 @@
   height: 1000px;
   position:absolute;
   display:inline-block;
-  text-align:center; 
+  text-align:center;
 }
 .leftlevels{
   float:left;
@@ -523,12 +554,12 @@
 }
 
 .secundary-title_3{
-  color: #27BBE9;	
-  font-family: Montserrat;	
-  font-size: 24px;	
-  font-weight: bold;	
-  line-height: 29px;	
-  position: relative; 
+  color: #27BBE9;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
+  position: relative;
 }
 
 .levelsbox{
@@ -544,10 +575,10 @@
   position:relative;
   top:9px;
   left:10px;
-  color: #FFFFFF;	
-  font-family: Montserrat;	
-  font-size: 20px;	
-  font-weight: 300;	
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 300;
   line-height: 24px;
 }
 
@@ -659,7 +690,7 @@
 }
 
 .title-text_2 {
-  margin-top:160px;
+  margin-top:170px;
   float:right;
   margin-right:160px;
 	height: 174px;
@@ -808,15 +839,16 @@
 	width: 664px;
   margin-top:130px;
   margin-left:130px;
-  color: #FFFFFF;	
-  font-family: Montserrat;	
-  font-size: 48px;	
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 48px;
   line-height: 58px;
 }
 
 
 .sway-foot-text {
-  margin-top:20px;
+	position:relative;
+  margin-top:0px;
 	height: 19px;
 	width: 784px;
 	color: #FFFFFF;
