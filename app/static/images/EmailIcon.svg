@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="25px" viewBox="0 0 28 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.3 (101010) - https://sketch.com -->
+    <title>7C830539-377D-4D5A-812F-49C16AE756D1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M24.6666667,0.166666667 L3.33333333,0.166666667 C1.86666667,0.166666667 0.68,1.55416667 0.68,3.25 L0.666666667,21.75 C0.666666667,23.4458333 1.86666667,24.8333333 3.33333333,24.8333333 L24.6666667,24.8333333 C26.1333333,24.8333333 27.3333333,23.4458333 27.3333333,21.75 L27.3333333,3.25 C27.3333333,1.55416667 26.1333333,0.166666667 24.6666667,0.166666667 Z M24.6666667,6.33333333 L14,14.0416667 L3.33333333,6.33333333 L3.33333333,3.25 L14,10.9583333 L24.6666667,3.25 L24.6666667,6.33333333 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solutions-Copy" transform="translate(-735.000000, -1342.000000)">
+            <g id="icon/content/file_copy_24px-copy" transform="translate(735.000000, 1342.000000)">
+                <g id="icon/content/mail_24px">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g fill-rule="nonzero"></g>
+                    <g id="↳-Color" mask="url(#mask-2)" fill="#9CC856">
+                        <g transform="translate(-2.000000, -6.000000)" id="Rectangle">
+                            <rect x="0" y="0" width="32" height="37"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
