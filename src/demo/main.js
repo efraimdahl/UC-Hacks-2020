@@ -35,4 +35,4 @@ function StartAnimation() {
         else{
         bar.animate(ani);
         }   
-    }
+}
