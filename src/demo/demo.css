@@ -4,6 +4,28 @@
   width: 100%;
 }
 
+.progress {
+  top:30px;
+  background-color: white;
+  align-self: center;
+  position: relative;
+  height: 200px;
+  z-index: 10;
+  bottom: 200px;
+}
+
+.progress > svg {
+  height: 100%;
+  display: block;
+}
+
+#container {
+  align-content: center;
+  margin-top: 20px;
+  margin-left: 38%;
+  width: 400px;
+  height: 200px;
+}
 
 .navtext {
     position: relative;
@@ -213,6 +235,7 @@
   background:white;
   width:1440px;
   height: 800px;
+  top:200px;
   position:absolute;
   display:inline-block;
   text-align:center;
