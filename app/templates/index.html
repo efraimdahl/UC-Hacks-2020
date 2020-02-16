@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Find out your Carbon Foodprint now!</h1>
+  <form action="" method="post">
+      {{ form.hidden_tag() }}
+      <p>
+          {{ form.food.label }}<br>
+          {{ form.food(size=32) }}<br>
+          {% for error in form.food.errors %}
+          <span style="color: red;">[{{ error }}]</span>
+          {% endfor %}
+      </p>
+      <p>
+          {{ form.amount.label }}<br>
+          {{ form.amount(size=32) }}<br>
+          {% for error in form.amount.errors %}
+          <span style="color: red;">[{{ error }}]</span>
+          {% endfor %}
+      </p>
+      <p>{{ form.submit() }}</p>
+  </form>
+{% endblock %}
