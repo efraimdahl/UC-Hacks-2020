@@ -37,80 +37,19 @@
         <div class="hero">
 						<div class = "rect">
             	<h2 class="title-text">Find out your Carbon Foodprint now!</h2>
-						</div>
-
-            <!--<button class="button-style" data-toggle="modal" data-target="#myModal">
-              START NOW
-            </button>
-            <div class = "linkbar">
-                <button class="button-simple">
-                    <a href = "charging_basics.html" class = "buttonlink">Charging Basics</a>
-                  </button>
-                <button href = "" class="button-simple">
-                  <a href = "solutions.html" class = "buttonlink">Charging Solutions</a>
-                </button>
-            </div>-->
-
+            </div>
         </div>
 
-        <div class = "content-div" style = "top:800px">
+        <!--<div class = "content-div" style = "top:800px">
             <div>
               <h2 class = "secundary-title">Start by inputing your recent food items:</h2>
             </div>
 						<div class = "homeinput">
 							<input type="text" name="food">
-						</div>
-
-              <!--<div class = "graph-div">
-                <h2 class = "subtitle">Yearly electricity consumption from passenger EVs, commercial EVs and E-Busses </h2>
-                <img class = "graph-image" src = "src/images/EV Growth Graph.jpg"/>
-              </div>
-            <div class = "text-div">
-              <h2 class = "secundary-title_2">Prepare for the future</h2>
-              <h2 class = "subtitle_2">Rapid Growth Requires Rapid Response</h2>
-              <p class = "paragraph">EV-mobility is rapidly gaining traction.
-                Due to ever improving battery technologies, and a growing electric infrastructure,
-                 electric vehicles are more convenient and affordable than ever.
-                 According to the BNEF’s annual forecast the total number of electric vehicles is
-                 predicted to make up about 32% of the worlds fleet by 2040. </p>
-              <img class = "read-article-icon" src = "src/images/file_copy_24px.svg" style = "margin:20px" href=""/>
-              <a href = "https://about.bnef.com/new-energy-outlook/" target="_blank" class = "read_article">READ THE FULL BNEF REPORT</a>
-            </div>
-        </div>
-        <div class = "content-div-2">
-                <div class = "text-div_2">
-                    <h2 class = "secundary-title_2">Attract New Customers:</h2>
-                    <h2 class = "subtitle_2">Differentiate Yourself In The Market</h2>
-                    <p class = "paragraph">Whether you are a landlord looking to attract new tenants,
-                      a business owner looking to grow a new customer base, or a public facility,
-                      providing Electric Chargers will make you stand out
-                     so that EV-drivers will chose your facility over others. </p>
-                    </div>
-                    <div class = charging-card>
-                    <img class = "cars-image" src = "src/images/CarsCharging.jpg"/>
-                  </div>
-
-
-        </div>
-        <div class = "content-div-3">
-                    <div class = "data-card">
-                    <img class = "data-image" src = "src/images/GHG Stats.svg"/>
-                  </div>
-                  <div class = "text-div-3">
-                      <h2 class = "secundary-title_2">Be A Leader In Sustainability:</h2>
-                      <p class = "subtitle_2">Reach Your Corporate Sustainability Goals And Be A Force
-                        For Good</p>
-                      <p class = "paragraph">Providing EV chargers does not only give drivers access to cleaner,
-                         efficient and more sustainable mobility, it also opens up discussion.
-                         The more people see available EV-chargers, the more people will consider
-                         driving electric vehicles, advancing that infrastructure will help
-                         potential EV drivers in their decision. </p>
-                         <img class = "read-article-icon" src = "src/images/file_copy_24px.svg" style = "margin:20px" href=""/>
-                      <a href = "https://www.epa.gov/greenvehicles/fast-facts-transportation-greenhouse-gas-emissions" target="_blank" class = "read_article">READ THE FULL EPA REPORT</a>
-										</div>-->
-        </div>
-            <!-- Functional Modal Design-->
-
+            </div>-->
+        {% block content %}
+        {% endblock %}
+            
         <footer class = "footer" style = "top:1440px">
           <a href = "about.html" class = "swaylogo">
             <img src = "src/images/logowhite.png" class = "swaylogo"/>
@@ -122,19 +61,5 @@
         <script src="./src/js/core/jquery.min.js"></script>
         <script src="./src/js/core/popper.min.js"></script>
         <script src="./src/js/bootstrap-material-design.js"></script>
-
-        <script>
-          // Get the modal
-          var myModal = document.getElementById('myModal');
-
-          // When the user clicks anywhere outside of the modal, close it
-          window.onclick = function(event) {
-            if (event.target == myModal) {
-              myModal.style.display = null;
-              myModal._backdrop = null;
-            }
-          }
-          </script>
-
     </body>
 </html>
