@@ -1,6 +1,6 @@
 name,amount
 lamb,39.2
-beef,27
+beef,27.0
 cheese,13.5
 pork,12.1
 salmon farmed,11.9
@@ -15,7 +15,7 @@ nuts,2.3
 yogurt,2.2
 broccoli,2.0
 tofu,2.0
-beans dry,0.80
+beans dry,0.8
 milk 2%,1.9
 tomatoes,1.5
 beef ration-fed fresh,44.92
@@ -25,7 +25,7 @@ beef pasture-fed frozen,16.46
 pepperoni frozen,13.06
 oysters farmed frozen,11.41
 tilapia (fish) farmed filleted frozen,10.55
-sea bass (fish) farmed filleted frozen,10.40
+sea bass (fish) farmed filleted frozen,10.4
 cheese processed refrigerated,9.82
 cheese natural refrigerated,9.81
 lettuce greenhouse fresh,9.81
@@ -38,17 +38,17 @@ orange juice processed frozen,7.97
 shrimp farmed frozen,7.05
 pork pasture access frozen,6.09
 flatfish frozen,5.97
-chicken broiler small-scale free-range,5.60
+chicken broiler small-scale free-range,5.6
 pork full confinement frozen,5.45
 lobster norway frozen,5.37
-carp (fish) common farmed frozen,5.30
-mullet (fish) farmed frozen,5.30
-silver carp (fish) frozen,5.30
-tilapia (fish) farmed frozen,5.30
+carp (fish) common farmed frozen,5.3
+mullet (fish) farmed frozen,5.3
+silver carp (fish) frozen,5.3
+tilapia (fish) farmed frozen,5.3
 cod (fish) atlantic frozen,5.25
 sea bass (fish) farmed frozen,5.23
 salmon (fish) atlantic farmed filleted frozen,5.05
-catfish (fish) farmed frozen,4.70
+catfish (fish) farmed frozen,4.7
 shrimp or prawn frozen,4.57
 mashed potato flakes processed,4.51
 trout (fish) freshwater farmed filleted frozen,4.42
@@ -69,10 +69,8 @@ coffee processed,2.51
 trout (fish) farmed frozen,2.51
 eggs large-scale confinement free-range,2.38
 rice white dry,2.35
-ketchup tomato processed,2.25kg
 brown rice dry,2.16
 cereal breakfast toasted processed,2.16
-egg liquid processed refrigerated,
 orange juice processed refrigerated,2.14
 herring (fish) frozen,2.09
 cereal whole wheat breakfast toasted processed,2.08
@@ -82,14 +80,13 @@ mackerel filleted frozen,1.92
 almonds dry,1.89
 eggs large-scale confinement commercial ration,1.85
 ice cream frozen,1.82
-tomato paste processed,1.82kg
-shortening solid processed,1.80
+shortening solid processed,1.8
 vegetable oil partially hydrogenated processed,1.79
 margarine processed,1.77
 cooking oil/salad oil processed,1.75
 soft drinks processed,1.72
-rapeseed oil processed,1.70
-canola oil processed,1.70
+rapeseed oil processed,1.7
+canola oil processed,1.7
 coffee beans green dry,1.66
 pecans dry,1.61
 figs fresh,1.54
@@ -106,12 +103,12 @@ cocoa butter processed,1.13
 fish industrial frozen,1.12
 pistachios dry,1.11
 pasta whole wheat (spaghetti macaroni etc.) processed,1.05
-yellow mustard,1.00
+yellow mustard,1.0
 beans common varieties dry,0.95
 garlic fresh,0.95
 lettuce romaine hearts fresh,0.92
 palm kernel oil processed,0.91
-yogurt refrigerated,0.90
+yogurt refrigerated,0.9
 asparagus fresh,0.88
 sunflower seeds dry,0.88
 malted barley processed,0.87
@@ -125,15 +122,13 @@ cherries sweet fresh,0.78
 walnuts conventional dry,0.76
 blueberries organic fresh,0.73
 dough pizza processed,0.72
-tofu firm refrigerated processed,0.72kg
-tofu firm organic refrigerated processed,0.72kg
 soymilk processed,0.69
 soymilk organic processed,0.68
 flour all purpose processed,0.65
 chickpeas (garbanzo beans),0.64
 wine processed,0.64
 lima beans baby dry,0.63
-corn dry,0.60
+corn dry,0.6
 peanuts fresh,0.57
 black-eyed peas dry,0.56
 flour bread processed,0.56
@@ -147,7 +142,7 @@ lentils dry,0.53
 mussels farmed frozen,0.53
 flour pastry processed,0.53
 eggplant american style fresh,0.51
-prunes french variety fresh,0.50
+prunes french variety fresh,0.5
 oat bran processed,0.49
 oatmeal rolled oat flakes processed,0.49
 rice bran dry,0.46
@@ -174,7 +169,7 @@ tomatoes organic fresh,0.33
 squash winter fresh,0.31
 oats dry,0.31
 cauliflower fresh,0.31
-barley malting dry,0.30
+barley malting dry,0.3
 onions fresh,0.08
 peas spring fresh,0.29
 blackberries fresh,0.28
@@ -199,16 +194,15 @@ apricots fresh,0.23
 strawberries organic fresh,0.23
 tomatoes fresh,0.23
 nectarines fresh,0.22
-sale processed,0.22kg
 sour cream refrigerated,0.22
 peaches fresh,0.22
 plums fresh,0.22
 pomelos specialty fresh,0.22
 wheat winter dry,0.22
 mandarin oranges satsuma fresh,0.21
-boysenberries fresh,0.20
-cilantro fresh,0.20
-cocoa powder processed,0.20
+boysenberries fresh,0.2
+cilantro fresh,0.2
+cocoa powder processed,0.2
 apples organic,0.19
 lettuce iceberg fresh,0.19
 olives manzanillo fresh,0.19
@@ -241,7 +235,7 @@ lemongrass fresh,0.07
 tomatoes cherry fresh,0.07
 beets sugarbeets fresh,0.05
 sugarcane fresh,0.04
-mushrooms portabella or button fresh,0.00
+mushrooms portabella or button fresh,0.0
 beef (bovine meat),68.8
 mutton & goat meat,64.2
 animal fats,40.1
@@ -267,7 +261,6 @@ rice (milled equivalent),3.9
 barley,3.8
 beer,3.8
 pulses other,3.5
-beverages alcoholic,3.5-3.3
 cocoa beans,3.4
 palm oil,3.3
 pulses,3.3
@@ -279,7 +272,6 @@ rape and mustardseed,2.9
 pepper,2.5
 beverages fermented,2.4
 cream,2.4
-oil crops oil other,2.4-2.3kg
 vegetables other,2.2
 coconut oil,2.1
 coconuts - incl copra,2.1
@@ -323,6 +315,6 @@ maize germ oil,0.4
 starchy roots,0.4
 sugar & sweeteners,0.1
 sugar (raw equivalent),0.1
-burger veggie,1
+burger veggie,1.0
 cappuccino large,0.236
 latte large,0.343
