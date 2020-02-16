@@ -6,7 +6,7 @@
         <title>
             Carbon Foodprint
         </title>
-        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=yes' name='viewport' />
         <!--     Fonts and icons     -->
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
@@ -16,23 +16,16 @@
         <link href="./src/demo/demo.css" rel = "stylesheet" />
     </head>
 
-    <body class="index-page sidebar-collapse ">
+    <body class="index-page">
         <nav class="navbar header fixed-top navbar-expand-lg" id="sectionsNav">
           <div class="container">
             <div class="navbar-translate">
               <a class="navbar-brand" href="index.html">
                 <img class = "sway-electric-logo" src = "src/images/expandedlogo.png"/></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
+           </div>
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                        <!--PUT LINK TO CHARGING SOLUTIONS HERE-->
                       <a class="navtext" href="about.html">
                         ABOUT
                       </a>
@@ -118,116 +111,7 @@
         </div>
             <!-- Functional Modal Design-->
 
-
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <form class="form" method="POST" action="contact.php">
-              <div class="modal-content">
-                <div class="modal-header text-center">
-                    <p class="modal-title-sway">Please fill out this form and we will contact you to discuss your quote</p>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body mx-10">
-
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">face</i>
-                        </span>
-                        <input name = "sender" type="text" class="form-control" placeholder="First & Last Name...">
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">email</i>
-                        </span>
-                        <input name = "senderEmail" type="email" class="form-control" placeholder="Email...">
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">domain</i>
-                        </span>
-                        <input name = "company" type="text" class="form-control" placeholder="Company...">
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">location_city</i>
-                        </span>
-                        <input name = "city" type="text" class="form-control" placeholder="City...">
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">add_location</i>
-                        </span>
-                        <input name = "state" type="text" class="form-control" placeholder="State...">
-                      </div>
-                <div class="modal-footer d-flex justify-content-center">
-                  <button type="submit" name="submit" class="button-modal" style = "background-color:27BBE9">Submit</button>
-                  </div>
-                </div>
-              </div>
-              </form>
-            </div>
-          </div>
-
-            <!-- Pretty Modal Design, not used because I could not get the close button to work properly -->
-      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-          <div class="section section-signup page-header" style="background-image: url('assets/img/city.jpg');background:transparent">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 ml-auto mr-auto">
-                        <div class="card card-signup">
-                            <form class="form" method="" action="">
-                                <div class="card-header form-header text-center" style = "background: linear-gradient(60deg, #27BBE9, #b5f6ff)">
-                                    <h4 class = "form-header-title">Request A Quote</h4>
-                                </div>
-                                <div class="card-body">
-                                    <p class="modal-title-sway">Please fill out this form and we will contact you to discuss your quote</p>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="material-icons">face</i>
-                                        </span>
-                                        <input type="text" class="form-control" placeholder="First & Last Name...">
-                                    </div>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="material-icons">email</i>
-                                        </span>
-                                        <input type="email" class="form-control" placeholder="Email...">
-                                    </div>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="material-icons">domain</i>
-                                        </span>
-                                        <input type="text" class="form-control" placeholder="Company...">
-                                    </div>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="material-icons">location_city</i>
-                                        </span>
-                                        <input type="text" class="form-control" placeholder="City...">
-                                    </div>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="material-icons">add_location</i>
-                                        </span>
-                                        <input type="text" class="form-control" placeholder="State...">
-                                    </div>
-                                </div>
-                                <div class="card-footer justify-content-center">
-                                    <button href="#submit" class="button-modal">Submit</button>
-                                    <button href = "index.html" class="button-modal">Close</button>
-                                    </span>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <footer class = "footer" style = "top:2640px">
+        <footer class = "footer" style = "top:1440px">
           <a href = "about.html" class = "swaylogo">
             <img src = "src/images/logowhite.png" class = "swaylogo"/>
             <p class = "sway-foot-text">© 2020 Carbon Foodprint. All Rights Reserved.</p>
